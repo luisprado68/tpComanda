@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.contenedor{
+    float: left;
+}
+nav{
+    background: #C70039;
+    margin: 0;
+    padding: 18px 0;
+}
+img{
+    width: 38px;
+    background: #C70039;
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    
+}
+.contenedor-dos h1,p{
+    color: #fff;
+}
+.contenedor-dos h1{
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.contenedor-dos p{
+    font-family: 'Unna', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Rancho', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.datos{
+    height: 92vh;
+}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
