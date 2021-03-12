@@ -1,0 +1,23 @@
+{
+    "name": "luisp/restaurante",
+    "description": "",
+    "authors": [
+        {
+            "name": "Luis",
+            "email": "luisprado0095@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "illuminate/database": "^8.13",
+        "illuminate/events": "^8.14",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\":"config/",
+            "Apps\\":"src/"
+        }
+    }
+}
